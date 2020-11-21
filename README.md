@@ -27,6 +27,8 @@ Create a docker file for local docker development
 - Consequently the port is exposed and command to star the server is executed
 
 ```docker
+# ./Dockerfile
+
 FROM node:14-alpine
 
 WORKDIR /src
